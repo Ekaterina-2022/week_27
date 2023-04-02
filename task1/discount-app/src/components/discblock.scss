@@ -1,0 +1,52 @@
+$blue: #6a7ce2;
+$light: #ebe2e2;
+$green: #24e421;
+$dark: #4b2a2a;
+$red: #da2525;
+
+@mixin cards {
+    width: 250px;
+	height: 400px;
+    font-size: 20px;
+    border: 2px solid $light;
+    color: $light;
+    & > div {
+        border: 1px solid $light;
+    }
+}
+@mixin cards-selected {
+    width: 300px;
+	height: 450px;
+    font-size: 24px;
+    border: 2px solid $light;
+    color: $light;
+    background-color: $red;
+    & > div {
+        border: 1px solid $light;
+    }
+}
+
+.card-red_selected {
+	@include cards-selected;
+}
+.card-dark {
+	@include cards;
+    background-color: $dark;
+}
+.card-blue {
+	@include cards;
+    background-color: $blue;
+    
+}
+.card-green {
+	@include cards;
+    background-color: $green;
+}
+.card-red {
+	@include cards;
+    background-color: $red;
+}
+.price {
+    display: flex;
+    justify-content: center;
+}
