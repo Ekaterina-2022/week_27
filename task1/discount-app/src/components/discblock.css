@@ -10,6 +10,42 @@
   border: 1px solid #ebe2e2;
 }
 
+.card-dark_selected {
+  width: 300px;
+  height: 450px;
+  font-size: 24px;
+  border: 2px solid #ebe2e2;
+  color: #ebe2e2;
+  background-color: #4b2a2a;
+}
+.card-dark_selected > div {
+  border: 1px solid #ebe2e2;
+}
+
+.card-blue_selected {
+  width: 300px;
+  height: 450px;
+  font-size: 24px;
+  border: 2px solid #ebe2e2;
+  color: #ebe2e2;
+  background-color: #6a7ce2;
+}
+.card-blue_selected > div {
+  border: 1px solid #ebe2e2;
+}
+
+.card-green_selected {
+  width: 300px;
+  height: 450px;
+  font-size: 24px;
+  border: 2px solid #ebe2e2;
+  color: #ebe2e2;
+  background-color: #24e421;
+}
+.card-green_selected > div {
+  border: 1px solid #ebe2e2;
+}
+
 .card-dark {
   width: 250px;
   height: 400px;
